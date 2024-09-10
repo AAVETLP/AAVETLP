@@ -1,9 +1,6 @@
 TLP Proxy Contract Documentation
 
 
-Background
-
-
 TLP (Targeted Liquidity Provider) operates as an integral part of the AAVE ecosystem, committed to providing targeted liquidity support to ensure platform liquidity security and efficiency. In the DeFi (Decentralized Finance) space, compliance and fund security are of paramount importance. To meet AAVE’s stringent standards for regulatory compliance and asset safety, the TLP team has adopted a Proxy Contract architecture and, in accordance with AAVE's requirements, has relinquished all administrative privileges, ensuring a decentralized and transparent operation.
 
 Necessity of the Proxy Contract
@@ -13,6 +10,7 @@ As a targeted liquidity provider within the AAVE ecosystem, TLP must adhere to A
 
 Dynamic Upgradability: The Proxy Contract allows for safe upgrades to the contract logic without altering the underlying data structure, enabling a swift response to security vulnerabilities and functional improvements. This dynamic upgradability enhances fund security and minimizes potential risks in asset management.
 Compliance Adaptation: By implementing strict access control mechanisms, the Proxy Contract ensures transparency in contract operations, preventing misuse of privileges and security risks. This approach aligns with AAVE's compliance requirements to guarantee asset safety.
+
 2. Transparent and Decentralized Permission Management
 To comply with AAVE's regulatory standards, the TLP team has, under AAVE’s supervision, formally relinquished all administrative privileges. This means that the governance and management rights of TLP are no longer controlled by any single entity or individual, and all contract operations are executed autonomously by smart contracts, eliminating the risks associated with centralized management. This decentralization measure ensures user fund security while meeting AAVE's standards for operational transparency.
 
@@ -26,6 +24,7 @@ Traditional smart contracts are immutable once deployed, which poses challenges 
 Quickly fix potential security issues;
 Dynamically add new features to adapt to market demands;
 Maintain consistent user experience and asset security.
+
 2. Reduced Upgrade Costs and Complexity
 In a blockchain environment, upgrading contracts typically involves asset migration and redeployment, increasing operational complexity and potential risk. The Proxy Contract architecture separates the logic and data layers, ensuring no need for user data migration or alteration during upgrades, significantly reducing system maintenance costs and operational complexity. For a liquidity provider like AAVE TLP, this mechanism ensures continuity and compliance of services.
 
