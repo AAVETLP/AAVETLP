@@ -1,6 +1,3 @@
-TLP Proxy Contract Documentation
-
-
 TLP (Targeted Liquidity Provider) operates as an integral part of the AAVE ecosystem, committed to providing targeted liquidity support to ensure platform liquidity security and efficiency. In the DeFi (Decentralized Finance) space, compliance and fund security are of paramount importance. To meet AAVE’s stringent standards for regulatory compliance and asset safety, the TLP team has adopted a Proxy Contract architecture and, in accordance with AAVE's requirements, has relinquished all administrative privileges, ensuring a decentralized and transparent operation.
 
 Necessity of the Proxy Contract
